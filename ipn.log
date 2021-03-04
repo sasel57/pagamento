@@ -1,0 +1,116 @@
+[2021-03-01 18:25 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 797
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=6D8T6N4WVEGS4&payment_date=09%3A25%3A07+Mar+01%2C+2021+PST&payment_status=Completed&charset=windows-1252&first_name=Sara&mc_fee=0.64&notify_version=3.9&custom=&payer_status=verified&business=traders%40test.com&quantity=1&verify_sign=AJeNFQBxqskNpEEhoikxdLyLcIi7AxOOKd7P2yzpn9SCMhNrQ668EQtG&payer_email=sara%40traders-mag.it&txn_id=5YU188779P580024L&payment_type=instant&last_name=Selami&receiver_email=traders%40test.com&payment_fee=0.64&shipping_discount=0.00&receiver_id=JK56DABSURYL4&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=USD&item_number=CAM%23N1&residence_country=IT&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=10.00&ipn_track_id=f7aa911e65d51
+[2021-03-01 18:25 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 01 Mar 2021 17:25:23 GMT
+Paypal-Debug-Id: c92505bf04de
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=auPXr9jE6cSIZL8ADDREb0zrVAT6V22r4QpLoNZNdfAc4v3r7Z2DEiZ8vqqOiQfhnDJpyZf0eintPXFgve1fZpjneF73ntu-y4XxNuP7KdcMIsz94g8_dDL8fK0iOP4B5d2YASZTknEpR4rlb5MTttg87U2hDttzkDhccEgDUwg_lYg5gWJCNmVTvh94WvVyCIHEgQoXrf5ud6oQpeUa_a09Ic2ixEAgrNdZ78B2QqqYVmDylL3wrEZkT1omDiBh5BSfrVNPpdVDpIv_r37c663KjR8Z280CvEfyP6E4FwUB_7IzWEp_L7ykb-WiyTKPbperLmIKNT8YwX2G0aGaw16v1F0U1K3bRO4RZPH0lQ3sWGyJTpaQtUQtgSuhI6SGRm_2kJ6bOa-dpiqTB1Upp5Yl176QMlbHBQth8QC1SbfSIQ5452e8hiwuJp0; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 27-Feb-2031 17:25:24 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 01-Mar-2023 17:25:24 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1614619523385911; path=/; expires=Wed, 22-Feb-51 17:25:23 GMT
+Set-Cookie: ts=vreXpYrS%3D1709313923%26vteXpYrS%3D1614621323%26vr%3Deed2b92b1770a48ef3117c91fec1d73d%26vt%3Deed2b92b1770a48ef3117c91fec1d73c%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Thu, 29 Feb 2024 17:25:24 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3Deed2b92b1770a48ef3117c91fec1d73d%26vt%3Deed2b92b1770a48ef3117c91fec1d73c; Path=/; Domain=paypal.com; Expires=Thu, 29 Feb 2024 17:25:24 GMT; Secure
+Vary: Accept-Encoding,User-Agent
+X-Frame-Options: SAMEORIGIN
+Content-Length: 8
+Connection: close
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2021-03-01 18:25 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=6D8T6N4WVEGS4&payment_date=09%3A25%3A07+Mar+01%2C+2021+PST&payment_status=Completed&charset=windows-1252&first_name=Sara&mc_fee=0.64&notify_version=3.9&custom=&payer_status=verified&business=traders%40test.com&quantity=1&verify_sign=AJeNFQBxqskNpEEhoikxdLyLcIi7AxOOKd7P2yzpn9SCMhNrQ668EQtG&payer_email=sara%40traders-mag.it&txn_id=5YU188779P580024L&payment_type=instant&last_name=Selami&receiver_email=traders%40test.com&payment_fee=0.64&shipping_discount=0.00&receiver_id=JK56DABSURYL4&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=USD&item_number=CAM%23N1&residence_country=IT&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=10.00&ipn_track_id=f7aa911e65d51 
+[2021-03-01 18:25 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=6D8T6N4WVEGS4&payment_date=09%3A25%3A07+Mar+01%2C+2021+PST&payment_status=Completed&charset=windows-1252&first_name=Sara&mc_fee=0.64&notify_version=3.9&custom=&payer_status=verified&business=traders%40test.com&quantity=1&verify_sign=AJeNFQBxqskNpEEhoikxdLyLcIi7AxOOKd7P2yzpn9SCMhNrQ668EQtG&payer_email=sara%40traders-mag.it&txn_id=5YU188779P580024L&payment_type=instant&last_name=Selami&receiver_email=traders%40test.com&payment_fee=0.64&shipping_discount=0.00&receiver_id=JK56DABSURYL4&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=USD&item_number=CAM%23N1&residence_country=IT&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=10.00&ipn_track_id=f7aa911e65d51 
+[2021-03-01 19:24 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 788
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=6D8T6N4WVEGS4&payment_date=10%3A24%3A37+Mar+01%2C+2021+PST&payment_status=Completed&charset=windows-1252&first_name=Sara&mc_fee=0.69&notify_version=3.9&custom=&payer_status=verified&business=traders%40test.com&quantity=1&verify_sign=AdquiySjUnAoNFwBwZmWGO4MbJMqARzVGQ0Zfrti-gjWfaJdSCPY2xXe&payer_email=sara%40traders-mag.it&txn_id=8SJ097283F672033U&payment_type=instant&last_name=Selami&receiver_email=traders%40test.com&payment_fee=&shipping_discount=0.00&receiver_id=JK56DABSURYL4&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=EUR&item_number=CAM%23N1&residence_country=IT&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=26a6da12c109d
+[2021-03-01 19:24 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 01 Mar 2021 18:24:56 GMT
+Paypal-Debug-Id: 3a765fae79f83
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=O09ZUkgEdveqZ_aqZud59FJif3vLKHCL5BY5cDGL1gdntbjf34bIjFiqMPya8LOnHNFN04GDVyYjCs5GxwfYWcL47Qq1_QjHKmvHNifB3UOJAYAZKDsviBr0LfyMCyllDGPUHmlODPXGSHyf1csDPafu3IaOJTYfpZCPQnvyNkq3NQYLypOAYRj2JEnvh7lOqx82oRmyrSQtNHcxNprSabu9XBz2413ucOCPW12B4BJAhXo9mlnDYaFR5fXZq-FaNiLPfRiVySXfXVz7eH7g6n2z8U6UR7LKbGZasc8VFdIkxvUPKSz6u-PmIXbaYekx8HTMuLudoh3-Nnn6gKY7gDYelVzoQxdgHXA0UKhGXDOmbu9Ne4pm2C_mj5nAKhTZCTk1VmasACSlISlMq4Z2SGXzkymlpWLYWPdqAxmqVcv7ElFcKTieGHNtA88; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 27-Feb-2031 18:24:57 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 01-Mar-2023 18:24:57 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1614623096654721; path=/; expires=Wed, 22-Feb-51 18:24:56 GMT
+Set-Cookie: ts=vreXpYrS%3D1709317496%26vteXpYrS%3D1614624896%26vr%3Def093f3f1770a488df80f06cfec4d2b7%26vt%3Def093f3f1770a488df80f06cfec4d2b6%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Thu, 29 Feb 2024 18:24:58 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3Def093f3f1770a488df80f06cfec4d2b7%26vt%3Def093f3f1770a488df80f06cfec4d2b6; Path=/; Domain=paypal.com; Expires=Thu, 29 Feb 2024 18:24:58 GMT; Secure
+Vary: Accept-Encoding,User-Agent
+X-Frame-Options: SAMEORIGIN
+Content-Length: 8
+Connection: close
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2021-03-01 19:24 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=6D8T6N4WVEGS4&payment_date=10%3A24%3A37+Mar+01%2C+2021+PST&payment_status=Completed&charset=windows-1252&first_name=Sara&mc_fee=0.69&notify_version=3.9&custom=&payer_status=verified&business=traders%40test.com&quantity=1&verify_sign=AdquiySjUnAoNFwBwZmWGO4MbJMqARzVGQ0Zfrti-gjWfaJdSCPY2xXe&payer_email=sara%40traders-mag.it&txn_id=8SJ097283F672033U&payment_type=instant&last_name=Selami&receiver_email=traders%40test.com&payment_fee=&shipping_discount=0.00&receiver_id=JK56DABSURYL4&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=EUR&item_number=CAM%23N1&residence_country=IT&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=26a6da12c109d 
+[2021-03-01 19:24 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=6D8T6N4WVEGS4&payment_date=10%3A24%3A37+Mar+01%2C+2021+PST&payment_status=Completed&charset=windows-1252&first_name=Sara&mc_fee=0.69&notify_version=3.9&custom=&payer_status=verified&business=traders%40test.com&quantity=1&verify_sign=AdquiySjUnAoNFwBwZmWGO4MbJMqARzVGQ0Zfrti-gjWfaJdSCPY2xXe&payer_email=sara%40traders-mag.it&txn_id=8SJ097283F672033U&payment_type=instant&last_name=Selami&receiver_email=traders%40test.com&payment_fee=&shipping_discount=0.00&receiver_id=JK56DABSURYL4&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=EUR&item_number=CAM%23N1&residence_country=IT&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=26a6da12c109d 
+[2021-03-03 12:05 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 789
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=223.00&protection_eligibility=Eligible&payer_id=6D8T6N4WVEGS4&payment_date=03%3A05%3A25+Mar+03%2C+2021+PST&payment_status=Completed&charset=windows-1252&first_name=Sara&mc_fee=7.93&notify_version=3.9&custom=&payer_status=verified&business=traders%40test.com&quantity=1&verify_sign=A5DqW3zW8P6.2mdKFharoYC2qZDjAnZ8V2bdYFYg0yRCi-C3y317wtN.&payer_email=sara%40traders-mag.it&txn_id=4LX35890DK8794815&payment_type=instant&last_name=Selami&receiver_email=traders%40test.com&payment_fee=&shipping_discount=0.00&receiver_id=JK56DABSURYL4&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=EUR&item_number=CAM%23N1&residence_country=IT&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=2f16f7868f1a4
+[2021-03-03 12:05 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 03 Mar 2021 11:05:46 GMT
+Paypal-Debug-Id: f479cee1397f8
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=B1NkcWOLSZRidU3w7duQzzXZbde7YaGcWajJOG78c_RjfdNojBxyKc7caVH-6Tx8liNlsxMJhh79fIWT9VBFGthj3E8FtIVeQditgleqwleDaZZhmaNvHO0mN7wl0LvnUuzo__TZhkQe1For6zQ1k71zd8tdUQ9yW1zlbyI43Ze89i7bmz-TJTX-unUYeK0f_wWSC-bfssnu_Ht5mUZHUhvbtx2nMkRknXk4Wd1-nwU9Y2nSWUgWrOdMdu7jLP4cucQ5jvziW29f-gkBh_q1lL8c3ObXEgAi3i4vBYubrOOnpSFbLypw8_qZ5q--zZDPj8bqxdXjpTWQOaXx4av8pPhtXQrdhOyAyXmj9odeXp9THZ5ClhaUrVHPD3Rja1lxgFvm-iO3DSmU0MUxR-XZd6c2YqNRKG6CRmk6lvSO_DW2wOPDGaR-3JKjYi8; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 01-Mar-2031 11:05:46 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 03-Mar-2023 11:05:46 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1614769546119826; path=/; expires=Fri, 24-Feb-51 11:05:46 GMT
+Set-Cookie: ts=vreXpYrS%3D1709463946%26vteXpYrS%3D1614771346%26vr%3Df7c3e3781770a48f13ebcb89fe4f08ab%26vt%3Df7c3e3781770a48f13ebcb89fe4f08aa%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Sat, 02 Mar 2024 11:05:47 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3Df7c3e3781770a48f13ebcb89fe4f08ab%26vt%3Df7c3e3781770a48f13ebcb89fe4f08aa; Path=/; Domain=paypal.com; Expires=Sat, 02 Mar 2024 11:05:47 GMT; Secure
+Vary: Accept-Encoding,User-Agent
+X-Frame-Options: SAMEORIGIN
+Content-Length: 8
+Connection: close
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2021-03-03 12:05 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=223.00&protection_eligibility=Eligible&payer_id=6D8T6N4WVEGS4&payment_date=03%3A05%3A25+Mar+03%2C+2021+PST&payment_status=Completed&charset=windows-1252&first_name=Sara&mc_fee=7.93&notify_version=3.9&custom=&payer_status=verified&business=traders%40test.com&quantity=1&verify_sign=A5DqW3zW8P6.2mdKFharoYC2qZDjAnZ8V2bdYFYg0yRCi-C3y317wtN.&payer_email=sara%40traders-mag.it&txn_id=4LX35890DK8794815&payment_type=instant&last_name=Selami&receiver_email=traders%40test.com&payment_fee=&shipping_discount=0.00&receiver_id=JK56DABSURYL4&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=EUR&item_number=CAM%23N1&residence_country=IT&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=2f16f7868f1a4 
+[2021-03-03 12:05 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=223.00&protection_eligibility=Eligible&payer_id=6D8T6N4WVEGS4&payment_date=03%3A05%3A25+Mar+03%2C+2021+PST&payment_status=Completed&charset=windows-1252&first_name=Sara&mc_fee=7.93&notify_version=3.9&custom=&payer_status=verified&business=traders%40test.com&quantity=1&verify_sign=A5DqW3zW8P6.2mdKFharoYC2qZDjAnZ8V2bdYFYg0yRCi-C3y317wtN.&payer_email=sara%40traders-mag.it&txn_id=4LX35890DK8794815&payment_type=instant&last_name=Selami&receiver_email=traders%40test.com&payment_fee=&shipping_discount=0.00&receiver_id=JK56DABSURYL4&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=EUR&item_number=CAM%23N1&residence_country=IT&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=2f16f7868f1a4 
+[2021-03-03 12:06 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 788
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=96.00&protection_eligibility=Eligible&payer_id=6D8T6N4WVEGS4&payment_date=03%3A06%3A17+Mar+03%2C+2021+PST&payment_status=Completed&charset=windows-1252&first_name=Sara&mc_fee=3.61&notify_version=3.9&custom=&payer_status=verified&business=traders%40test.com&quantity=1&verify_sign=APx.34HIDWeeXBkj6EUdK3ruFypmAdzaX0b2E2zpUZmGlOG28rMIy3ZX&payer_email=sara%40traders-mag.it&txn_id=76K11413HS4559732&payment_type=instant&last_name=Selami&receiver_email=traders%40test.com&payment_fee=&shipping_discount=0.00&receiver_id=JK56DABSURYL4&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=EUR&item_number=CAM%23N1&residence_country=IT&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=c91047bab23cf
+[2021-03-03 12:06 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 03 Mar 2021 11:06:33 GMT
+Paypal-Debug-Id: ebf602a25e2a0
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=3P6prPOmpEYRKtwnwEgYz07R_g6_18-e4kfjMeBywba1E8QC0w7A-uDZTKX2jMy1SjeTvSeOziavimhQ9lQRAtbw6IZCmKbieOmWD_yakw1PRHi-NKkJzL4KJoOcd5jPg-jqkf77lpbthTzlrRefSBmqv-LBtFxBIWg156P0EqzxMqkqMTajZr9LPRyH9XfNxw1AQJpuT7JOy_PLRA91p6KcBC04_Qm5Z5QRTs35bFBru2xhCbxtzv1rm_YJG2iL3lf6ROsJzPyyqkIkaTNLGt8MxOFaE8Xs2uKhNSvMJUzEAdEEIXA6ZWxem2GzhqYh8LHSfEkCSFmsPzEI9KOaCoPm_19aZgIy1p5-GQHoJSzrVsMmI56E4MDFnIb9M7akPekTc8qqQSpO2hU-6c6fBe66T_HALIUdK9IxhrQLi0iusktZQrLVz9Iv4XK; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 01-Mar-2031 11:06:34 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 03-Mar-2023 11:06:34 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1614769593310442; path=/; expires=Fri, 24-Feb-51 11:06:33 GMT
+Set-Cookie: ts=vreXpYrS%3D1709463993%26vteXpYrS%3D1614771393%26vr%3Df7c49bcf1770a48f12706c19fe50b720%26vt%3Df7c49bcf1770a48f12706c19fe50b71f%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Sat, 02 Mar 2024 11:06:34 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3Df7c49bcf1770a48f12706c19fe50b720%26vt%3Df7c49bcf1770a48f12706c19fe50b71f; Path=/; Domain=paypal.com; Expires=Sat, 02 Mar 2024 11:06:34 GMT; Secure
+Vary: Accept-Encoding,User-Agent
+X-Frame-Options: SAMEORIGIN
+Content-Length: 8
+Connection: close
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2021-03-03 12:06 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=96.00&protection_eligibility=Eligible&payer_id=6D8T6N4WVEGS4&payment_date=03%3A06%3A17+Mar+03%2C+2021+PST&payment_status=Completed&charset=windows-1252&first_name=Sara&mc_fee=3.61&notify_version=3.9&custom=&payer_status=verified&business=traders%40test.com&quantity=1&verify_sign=APx.34HIDWeeXBkj6EUdK3ruFypmAdzaX0b2E2zpUZmGlOG28rMIy3ZX&payer_email=sara%40traders-mag.it&txn_id=76K11413HS4559732&payment_type=instant&last_name=Selami&receiver_email=traders%40test.com&payment_fee=&shipping_discount=0.00&receiver_id=JK56DABSURYL4&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=EUR&item_number=CAM%23N1&residence_country=IT&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=c91047bab23cf 
+[2021-03-03 12:06 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=96.00&protection_eligibility=Eligible&payer_id=6D8T6N4WVEGS4&payment_date=03%3A06%3A17+Mar+03%2C+2021+PST&payment_status=Completed&charset=windows-1252&first_name=Sara&mc_fee=3.61&notify_version=3.9&custom=&payer_status=verified&business=traders%40test.com&quantity=1&verify_sign=APx.34HIDWeeXBkj6EUdK3ruFypmAdzaX0b2E2zpUZmGlOG28rMIy3ZX&payer_email=sara%40traders-mag.it&txn_id=76K11413HS4559732&payment_type=instant&last_name=Selami&receiver_email=traders%40test.com&payment_fee=&shipping_discount=0.00&receiver_id=JK56DABSURYL4&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=EUR&item_number=CAM%23N1&residence_country=IT&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=c91047bab23cf 
