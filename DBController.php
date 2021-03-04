@@ -5,13 +5,13 @@ class DBController
 
     public  const STRIPE_SECRET_KEY = 'sk_test_51IQttjHD9505Ebk8jPY0aP0QoW1Jh2UVBaXuqzLNieFxEQi3fpRh386Z9l6ACKAbd3VqopCIS7XQAzkhc2FH8QMO00YoG5roNs';
 
-    private $host = "tradersmbetadb.mysql.db";
+    private $host = "host";
 
-    private $user = "tradersmbetadb";
+    private $user = "user";
 
-    private $password = "fGgzDsH4KT2c";
+    private $password = "password";
 
-    private $database = "tradersmbetadb";
+    private $database = "database";
 
     private $conn;
 
