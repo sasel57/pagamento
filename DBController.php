@@ -1,9 +1,9 @@
 <?php
 
 class DBController
-{   public  const STRIPE_PUB_KEY = 'pk_test_51IQttjHD9505Ebk8Kaa7u3JhZbWIzTnPy2KNdcpKPEkDdNhWEarcEqcS3nHLPuHTfCIWvRQty4VxQQtBYqWCjBuy00c8T9qZiK';
+{   public  const STRIPE_PUB_KEY = '';
 
-    public  const STRIPE_SECRET_KEY = 'sk_test_51IQttjHD9505Ebk8jPY0aP0QoW1Jh2UVBaXuqzLNieFxEQi3fpRh386Z9l6ACKAbd3VqopCIS7XQAzkhc2FH8QMO00YoG5roNs';
+    public  const STRIPE_SECRET_KEY = '';
 
     private $host = "host";
 
